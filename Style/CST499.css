@@ -1,0 +1,30 @@
+/*
+	Clown College Cascading StyleSheet
+
+	Version
+	-20220427 - Original Release - Steve On
+*/
+
+html,body, #navbars{
+	background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.offcanvas-body{
+	background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/08/19/53035/clown-09.jpg');
+	background-repeat:  no-repeat;
+	background-size: cover;
+}
+
+.card{
+	box-shadow: 
+	  	inset 0 -3em 3em rgba(0,0,0,0.1),
+	  	0 0  0 2px rgb(255,255,255),
+	  	0.3em 0.3em 1em rgba(0,0,0,0.3);
+  	width: 18rem; 
+  	height: 350px;
+}
+
+.card-img-top{
+	height: 200px; 
+	width:  100%;
+}
